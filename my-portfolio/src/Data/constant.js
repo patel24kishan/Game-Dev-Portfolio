@@ -1,10 +1,10 @@
 export const Bio = {
     name: "Kishan Kahodariya",
     roles: [
-      "Software Developer",
       "Game Developer",
       "Unity Developer",
       "Game Programmer",
+      "Backend Developer"
     ],
     description:
       "Experienced software developer with solid game development experience, seeking new opportunities in the gaming industry. Skilled in various programming languages and game engines, with a proven track record of creating engaging and immersive gaming experiences. Eager to contribute expertise and creativity to a dynamic game development team.",
