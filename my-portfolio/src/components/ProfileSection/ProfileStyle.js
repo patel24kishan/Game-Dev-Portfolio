@@ -30,7 +30,7 @@ export const ProfileBg = styled.div`
   height: 100%;
   max-width: 1360px;
   overflow: hidden;
-  padding: 45px 25px;
+  padding: 45px 28px;
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
