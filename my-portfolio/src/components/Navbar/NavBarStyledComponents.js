@@ -154,7 +154,7 @@ export const MobileMenuItems = styled.ul`
   height: 100%;
 `
 
-export const MobileMenuLink = styled(LinkR)`
+export const MobileMenuLinks = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
