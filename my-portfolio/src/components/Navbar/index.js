@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, NavLink, NavContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileMenuLinks, MobileNavLogo, MobileLink } from './NavBarStyledComponents';
 import {DiCssdeck} from 'react-icons/di';
 import {FaBars} from 'react-icons/fa';
+import Logo from '../../images/Logo.png';
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants'; 
 
@@ -14,7 +15,7 @@ const Navbar=()=>{
         <NavContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <img src={Logo} width={50} height={50} href="/" /> <Span> Portfolio</Span>
           </a>
         </NavLogo>
             <MobileIcon>
