@@ -31,7 +31,7 @@ const Profile=()=>{
                         <ResumeButton href={Bio.resume_gamedeveloper} target="_blank">Review CV</ResumeButton>
                     </ProfileLeftContainer>
                     <ProfileRightContainer>
-
+                                <ProfileImg src={ProfileImage} alt="Profile"/>
                     </ProfileRightContainer>
                 </ProfileInnerContainer>
             </ProfileContainer>
