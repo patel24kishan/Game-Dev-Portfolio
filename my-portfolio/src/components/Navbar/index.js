@@ -3,9 +3,7 @@ import { Nav, NavLink, NavContainer, Span, NavLogo, NavItems, GitHubButton, Butt
 import {DiCssdeck} from 'react-icons/di';
 import {FaBars} from 'react-icons/fa';
 import { useTheme } from 'styled-components';
-
-
-
+import { Bio } from '../../data/constants'; 
 
 const Navbar=()=>{
 
@@ -33,7 +31,7 @@ const Navbar=()=>{
                 <NavLink href='#education'>Education</NavLink>
             </NavItems>
             <ButtonContainer>
-                <GitHubButton>Github Profile</GitHubButton>
+                <GitHubButton href={Bio.github}>Github Profile</GitHubButton>
             </ButtonContainer>
         {
             open && 
@@ -63,7 +61,7 @@ const Navbar=()=>{
              setOpen(!open);
             }}>Education</MobileLink>
 
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="/" target="_blank">
+            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">
                 Github Profile
             </GitHubButton>
             </MobileMenu> 
