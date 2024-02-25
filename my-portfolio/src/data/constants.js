@@ -21,21 +21,31 @@ export const Bio = {
   
   export const skills = [
     {
-      title: "Frontend",
+      title: "Game Development Tools",
       skills: [
         {
-          name: "React Js",
+          name: "Unity3D",
+          image:""
+           },
+        {
+          name: "Unreal Engine",
           image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+            "data:image/png;base64,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",
         },
         {
-          name: "HTML",
-          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+          name: "Adobe Photoshop",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
         },
         {
-          name: "CSS",
+          name: "Netcode",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+        },
+        {
+          name: "Discord",
+          image:
+            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
         },
       ],
     },
@@ -59,10 +69,31 @@ export const Bio = {
         {
           name: "Java",
           image:
-            "https://www.freepik.com/icon/java_226777#fromView=search&page=1&position=2&uuid=e72d42bb-8370-4689-abdd-9ec8b93cc9ba",
+            "https://cdn.worldvectorlogo.com/logos/java.svg",
         },
       ],
     },
+    {
+      
+      title: "Frontend",
+      skills: [
+        {
+          name: "React Js",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+      ],
+    },
+    
     {
       title: "Testing",
       skills: [
@@ -126,109 +157,16 @@ export const Bio = {
         },    
       ],
     },
-    {
-      title: "Game Development Tools",
-      skills: [
-        {
-          name: "Unity3D",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        },
-        {
-          name: "Unreal Engine",
-          image:
-            "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-        },
-        {
-          name: "Adobe Photoshop",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-        },
-        {
-          name: "Netcode",
-          image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        },
-        {
-          name: "Discord",
-          image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        },
-      ],
-    },
-    {
-      title: "Others",
-      skills: [
-        {
-          name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-        },
-        {
-          name: "GitHub",
-          image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-        },
-        {
-          name: "New Relic",
-          image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-        },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Visual Studio",
-          image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        },
-        {
-          name: "IntelliJ",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
-        {
-          name: "IntelliJ",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
-        {
-          name: "Pycharm",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "JIRA",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Trello",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Slack",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "MS Teams",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-      ],
-    },
+    
+   
   ];
   
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
+      img: "https://www.svgrepo.com/show/349407/ibm.svg",
+       role: "Application Developer",
+      company: "IBM Canada",
       date: "June 2023 - Present",
       desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
@@ -244,11 +182,11 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-      role: "Fullstack Externship",
-      company: "Flipr",
-      date: "June 2023 - July 2023",
-      desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+      img: "https://www.achievers.com/wp-content/uploads/2023/12/Logo-Achievers.svg",
+      role: "Software Developer Intern",
+      company: "Achievers",
+      date: "May - August 2022",
+      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
         "ReactJS",
         "Redux",
@@ -257,84 +195,28 @@ export const Bio = {
         "HTML",
         "CSS",
         "JavaScript",
-        "Docker",
-        "AWS",
-        "MongoDB",
       ],
+      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
     },
     {
       id: 2,
-      img: "https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=1692835200&v=beta&t=FjOWcUVVNzqFbTmmp0iXQkv5keBQC5lxIQ7K6rmMSMQ",
-      role: "Open Source Contributor ",
-      company: "GirlScript Summer of Code",
-      date: "May 2023 - Present",
-      desc: "Contributing to different open-source projects and learn from industry experts",
-      doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-    },
-    {
-      id: 3,
-      img: "https://media.licdn.com/dms/image/D4D0BAQGfGQHEJt8gPA/company-logo_100_100/0/1666002815185?e=1692230400&v=beta&t=c4obZda4Uh9q6vOcmCbxjoSiExvbvYwEHUlgdY0tU-4",
-      role: "Android Developer",
-      company: "DSC KIIT",
-      date: "Nov2021 - Present",
-      desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+      img: "https://media.glassdoor.com/sql/1759068/escrow-infotech-squarelogo-1559125938891.png",
+      role: "Game Developer",
+      company: "Escrow Infotech",
+      date: "June 2023 - Present",
+      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
-        "Leadership",
-        "Mobile Application Development",
-        "Kotlin",
-        "XML",
-        "Figma",
+        "ReactJS",
+        "Redux",
+        "NodeJs",
+        "Material UI",
+        "HTML",
+        "CSS",
+        "JavaScript",
       ],
+      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
     },
-    {
-      id: 4,
-      img: "https://media.licdn.com/dms/image/C4D0BAQH4od9HG2K7bw/company-logo_100_100/0/1661484397513?e=1692230400&v=beta&t=IW-eebE0PpFxqZ8Q3UCYYtlAokbhAEqsNePBv2Pmg18",
-      role: "Android Developer Intern",
-      company: "Rudraksha Welffare Foundation",
-      date: "June 2021 - Oct 2021",
-      desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-      skills: [
-        "Android",
-        "Java",
-        "Kotlin",
-        "XML",
-        "Node Js",
-        "Cloud Firestore",
-        "Firebase",
-        "Figma",
-      ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-    },
-    {
-      id: 1,
-      img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
-    },
-    {
-      id: 2,
-      img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
-    },
+    
   ];
   
   export const projects = [
