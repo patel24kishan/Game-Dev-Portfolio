@@ -3,6 +3,8 @@ import {Container, Wrapper, Title, Description, SkillsContainer, Skill, SkillTit
 import { skills } from "../../data/constants";
 import { Tilt } from "react-tilt";
 
+
+// ADD '<SkillImage src={item.image} /> under SkillItem before {item.name} '
 const Skills=()=>{
     return ( <Container id="Skills">
     <Wrapper>
