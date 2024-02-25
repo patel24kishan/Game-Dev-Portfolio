@@ -35,16 +35,6 @@ export const Title = styled.div`
   }
 `;
 
-export  const Description = styled.div`
-  font-size: 18px;
-  text-align: center;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
-`;
-
 export  const TimeLineSection = styled.div`
   width: 100%;
   max-width: 1000px;

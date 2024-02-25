@@ -15,7 +15,7 @@ const Navbar=()=>{
         <NavContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-          <img src={Logo} width={50} height={50} href="/" /> <Span> My Portfolio</Span>
+          <img src={Logo} width={50} height={50} href="/" /> <Span> Kishan Kahodariya</Span>
           </a>
         </NavLogo>
             <MobileIcon>

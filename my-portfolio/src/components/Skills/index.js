@@ -6,7 +6,7 @@ import { Tilt } from "react-tilt";
 
 // ADD '<SkillImage src={item.image} /> under SkillItem before {item.name} '
 const Skills=()=>{
-    return ( <Container id="Skills">
+    return ( <Container id="skills">
     <Wrapper>
       <Title>Skills</Title>
       <SkillsContainer>

@@ -9,7 +9,7 @@ import { Timeline, TimelineItem, TimelineConnector, TimelineContent, TimelineDot
 
 const Experience = () => {
   return (
-    <ExperienceContainer id="Experience">
+    <ExperienceContainer id="experience">
       <Wrapper>
         <Title> Work Experience</Title> 
         <TimeLineSection>
