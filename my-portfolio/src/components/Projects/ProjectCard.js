@@ -4,7 +4,6 @@ import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import { projects } from '../../data/constants';
 
-
 const Card = styled.div`
   width: 330px;
   height: 490px;
@@ -116,6 +115,7 @@ const ProjectCard = ({ project }) => {
   return (
     <Card >
       <Image src={project.image} />
+      
       <Tags>
         {project.tags?.map((tag, index) => (
           <Tag>{tag}</Tag>
