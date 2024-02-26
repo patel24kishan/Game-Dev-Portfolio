@@ -9,7 +9,7 @@ const Certificate=()=>{
     return (
     <CertificateContainer id="certficates">
         <Wrapper>
-        <Title>My Certficates</Title> 
+        <Title>Certificates</Title> 
         
         <CertificateCardContainer>
        

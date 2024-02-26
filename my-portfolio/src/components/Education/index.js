@@ -8,7 +8,7 @@ const Education=()=>{
     return (
         <EducationContainer id="Education">
             <Wrapper>
-            <Title> Work Experience</Title> 
+            <Title>Education</Title> 
             <TimeLineSection>
             <Timeline>
             {education.map((education,index) => (

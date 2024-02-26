@@ -9,7 +9,7 @@ const Projects=()=>{
     return (
     <ProjectContainer id="projects">
         <Wrapper>
-        <Title>My Project</Title> 
+        <Title>Projects</Title> 
         
         <ProjectToggleButtonGroup>
             {projectToggle==="unitygames" ?(

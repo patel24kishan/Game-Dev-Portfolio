@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const EducationContainer = styled.div`
 margin-top: 50px;
+margin-bottom: 320px;
 display: flex;
 flex-direction: column;
 justify-content:center;
