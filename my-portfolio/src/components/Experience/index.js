@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { experiences } from "../../data/constants";
 import ExperienceCard from "./ExperienceCard";
 import {ExperienceContainer, Wrapper, Title, Description,TimeLineSection} from './ExperienceStyle';
 import { Timeline, TimelineItem, TimelineConnector, TimelineContent, TimelineDot,TimelineSeparator, TimelineOppositeContent } from '@mui/lab';
+import { experiences } from "../../data/constants";
 
 
 

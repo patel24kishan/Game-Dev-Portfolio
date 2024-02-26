@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectContainer = styled.div`
+export const CertificateContainer = styled.div`
 margin-top: 20px;
 display: flex;
 flex-direction: column;
@@ -46,43 +46,9 @@ export  const Description = styled.div`
   }
 `;
 
-export const ProjectToggleButtonGroup = styled.div`
-display: flex;
-border: 1.5px solid ${({ theme }) => theme.primary};
-color: ${({ theme }) => theme.primary};
-font-size: 16px;
-border-radius: 12px;
-font-weight 500;
-margin: 22px 0;
-@media (max-width: 768px){
-    font-size: 12px;
-}
-`;
 
-export const ProjectToggleButton = styled.div`
-  padding: 8px 18px;
-  border-radius: 6px;
-  cursor: pointer;
-  &:hover {
-    background: ${({ theme }) => theme.primary + 20};
-  }
-  @media (max-width: 768px) {
-    padding: 6px 8px;
-    border-radius: 4px;
-  }
-  ${({ active, theme }) =>
-    active &&
-    `
-  background:  ${theme.primary + 20};
-  `}
-`;
 
-export const ProjectDivider = styled.div`
-  width: 1.5px;
-  background: ${({ theme }) => theme.primary};
-`;
-
-export const ProjectCardContainer = styled.div`
+export const CertificateCardContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

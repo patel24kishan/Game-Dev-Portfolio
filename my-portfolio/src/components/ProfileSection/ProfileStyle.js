@@ -6,7 +6,7 @@ export const ProfileContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  padding: 50px 0px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
