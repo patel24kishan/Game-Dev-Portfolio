@@ -10,6 +10,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Certificate from './components/Certificate';
 import Footer from './components/Footer';
+import Combined from './components/Combined';
 
 const Body=styled.div`
 background-color:${({theme})=>theme.bg};
@@ -44,8 +45,7 @@ function App() {
                     <Projects/>
                     <Experience/>
                     <Skills/>
-                    <Certificate/>
-                    <Education/>
+                   <Combined/>
                 </Wrapper>
                 <Footer/>
           </Body>

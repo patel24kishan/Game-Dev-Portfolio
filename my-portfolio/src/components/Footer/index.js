@@ -5,7 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { Icon } from "@mui/material";
+import { Icon, Tooltip } from "@mui/material";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -97,19 +97,38 @@ const Footer = () => {
                 <NavLink href='#skills'>Skills</NavLink>
                 <NavLink href='#education'>Education</NavLink>
         </Nav>
+       
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
+            <Tooltip title="Itch-io">
+             <SocialMediaIcon href={Bio.itchio} target="display">
+                <Icon>
+                <img src="https://image.pngaaa.com/170/5125170-small.png" height={50} width={50}/>
+                </Icon>
+                </SocialMediaIcon>
+
+             </Tooltip>
+
+             <Tooltip title="Facebook">
+                <SocialMediaIcon href={Bio.facebook} target="display">
+                <FacebookIcon />
+            </SocialMediaIcon>
+            </Tooltip>
+
+            <Tooltip title="Linkedin">
+                <SocialMediaIcon href={Bio.linkedin} target="display">
+                <LinkedInIcon />
+            </SocialMediaIcon>
+            </Tooltip>
+
+            <Tooltip title="Discord">
+            <SocialMediaIcon href={Bio.discord} target="display">
+            <Icon>
+            <img src="https://www.svgrepo.com/show/452188/discord.svg" height={35} width={35}/>
+             </Icon>
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <Icon src="https://www.svgrepo.com/show/314217/itch-io.svg" />
-          </SocialMediaIcon>
+
+            </Tooltip>
+          
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Kishan Kahodariya. All rights reserved.</Copyright>
       </FooterWrapper>

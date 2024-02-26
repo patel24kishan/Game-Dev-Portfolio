@@ -14,8 +14,8 @@ export const Bio = {
     resume_softwaredeveloper:"https://drive.google.com/file/d/1sKffcMKezBLFVSMQ7B3QSL2wM0a_vPml/view?usp=drivesdk" ,
     linkedin: "https://www.linkedin.com/in/kkishan2409/",
     twitter: "",
-    itchio:"",
-    insta: "",
+    itchio:"https://ghosts24.itch.io/",
+    discord: "",
     facebook: "",
   };
   
