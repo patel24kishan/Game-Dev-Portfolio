@@ -45,7 +45,9 @@ function App() {
                     <Projects/>
                     <Experience/>
                     <Skills/>
-                   <Combined/>
+                  <Certificate/>
+                  <Education/>
+                  <Combined/>
                 </Wrapper>
                 <Footer/>
           </Body>

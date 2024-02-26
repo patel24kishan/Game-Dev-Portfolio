@@ -8,19 +8,17 @@ import { Bio } from '../../data/constants';
 import Education from '../Education';
 import Certificate from '../Certificate';
 
+//Combine Education and Certfication
 const Combined=()=>{
     return (
     <div id="about">
             <ProfileContainer>
-                <ProfileBg>
-                    <ProfileBgAnimation/>
-                </ProfileBg>
                 <ProfileInnerContainer>
                     <ProfileLeftContainer>
-                        <Education/>
+                        
                     </ProfileLeftContainer>
                     <ProfileRightContainer>
-                            <Certificate/>    
+                             
                     </ProfileRightContainer>
                 </ProfileInnerContainer>
             </ProfileContainer>

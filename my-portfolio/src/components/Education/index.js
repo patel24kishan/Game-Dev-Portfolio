@@ -6,7 +6,7 @@ import EducationCard from './EducationCard';
 
 const Education=()=>{
     return (
-        <EducationContainer id="Education">
+        <EducationContainer id="education">
             <Wrapper>
             <Title>Education</Title> 
             <TimeLineSection>
@@ -15,8 +15,7 @@ const Education=()=>{
                 <TimelineItem>
                     <TimelineSeparator>
                         <TimelineDot variant="outlined" />
-                        {index!==education.length -1 && <TimelineConnector/>}
-                        
+                        {index!==education.length -1 && <TimelineConnector/>}                      
                     </TimelineSeparator>
                     <TimelineContent>
                         <EducationCard education={education}/>

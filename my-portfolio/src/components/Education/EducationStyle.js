@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const EducationContainer = styled.div`
-margin-top: 50px;
-margin-bottom: 320px;
+margin-top: 30px;
 display: flex;
 flex-direction: column;
 justify-content:center;
@@ -10,6 +9,7 @@ position: relative;
 z-index: 1;
 align-items: center;
 `;
+
 export const Wrapper = styled.div`
   position: relative;
   display: flex;
@@ -17,8 +17,8 @@ export const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  max-width: 1100px;
-  gap: 12px;
+  max-width: 1200px;
+  gap: 0px;
   @media (max-width: 960px) {
     flex-direction: column;
   }
