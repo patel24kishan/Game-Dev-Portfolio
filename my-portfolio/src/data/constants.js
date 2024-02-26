@@ -381,15 +381,14 @@ export const Bio = {
   export const certificate = [
     {
       id: 0,
-      title: "AWS Developer - Associate",
-      date: "14 Dec 2023 - 14 Dec 2026",
+      title: "Unity Junior Programmer",
+      date: "Sept 19 2023",
       description:
         "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://images.credly.com/size/340x340/images/03d1c2f6-6182-49bd-b5af-2ef6d28b5383/image.png",
       certificate_url: "https://www.credly.com/badges/508d3f6b-cadd-40d1-91aa-7f782c8beebe/public_url",
     },
-
     {
       id: 1,
       title: "AWS Solution Architect - Associate",
@@ -397,18 +396,19 @@ export const Bio = {
       description:
         "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
       certificate_url: "https://www.credly.com/badges/40ae936b-cbe6-4ea1-aed9-4e95344cb4dc/public_url",
     },
 
     {
+
       id: 2,
-      title: "Unity Junior Programmer",
-      date: "Sept 19 2023",
+      title: "AWS Developer - Associate",
+      date: "14 Dec 2023 - 14 Dec 2026",
       description:
         "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png",
       certificate_url: "https://www.credly.com/badges/508d3f6b-cadd-40d1-91aa-7f782c8beebe/public_url",
     },
   ];
