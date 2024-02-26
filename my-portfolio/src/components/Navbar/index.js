@@ -5,6 +5,7 @@ import {FaBars} from 'react-icons/fa';
 import Logo from '../../images/Logo.png';
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants'; 
+import { Button } from '@mui/material';
 
 const Navbar=()=>{
 
@@ -30,8 +31,10 @@ const Navbar=()=>{
                 <NavLink href='#experience'>Experience</NavLink>
                 <NavLink href='#skills'>Skills</NavLink>
                 <NavLink href='#education'>Education</NavLink>
+                <NavLink href={Bio.blog} target="_Blank">Blog</NavLink>
             </NavItems>
             <ButtonContainer>
+
                 <GitHubButton href={Bio.github}>Github Profile</GitHubButton>
             </ButtonContainer>
         {

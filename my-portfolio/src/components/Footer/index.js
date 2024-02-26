@@ -96,6 +96,7 @@ const Footer = () => {
                 <NavLink href='#experience'>Experience</NavLink>
                 <NavLink href='#skills'>Skills</NavLink>
                 <NavLink href='#education'>Education</NavLink>
+                <NavLink href={Bio.blog} target="_Blank">Blog</NavLink>
         </Nav>
        
         <SocialMediaIcons>
@@ -128,6 +129,7 @@ const Footer = () => {
           </SocialMediaIcon>
 
             </Tooltip>
+
           
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Kishan Kahodariya. All rights reserved.</Copyright>

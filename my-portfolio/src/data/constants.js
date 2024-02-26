@@ -17,6 +17,7 @@ export const Bio = {
     itchio:"https://ghosts24.itch.io/",
     discord: "",
     facebook: "",
+    blog:"https://www.speakless.blog/",
   };
   
   export const skills = [
