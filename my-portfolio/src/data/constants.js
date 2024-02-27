@@ -171,14 +171,14 @@ export const Bio = {
       desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
         "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "AWS",
+        "Java",
+        "Springboot",
+        "Unit testing",
+        "Junit",
+        "Mockito",
       ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+      doc: "",
     },
     {
       id: 1,
@@ -188,15 +188,13 @@ export const Bio = {
       date: "May - August 2022",
       desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "Python",
+        "PHP",
+        "Google cloud",
+        "GraphQL",
+        "pub/sub",
       ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+      doc: "",
     },
     {
       id: 2,
@@ -206,15 +204,15 @@ export const Bio = {
       date: "June 2023 - Present",
       desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "Unity", 
+          "C#", 
+          "Photoshop", 
+          "Git",
+          "Unity",
+          "Unity Plugins",
+          "Photon Engine",
       ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+      doc: "",
     },
     
   ];
@@ -285,7 +283,7 @@ export const Bio = {
         "Unity Input System",
       ],
       category: "unitygames",
-      github: "https://github.com/rishavchanda/Trackify",
+      github: "https://github.com/patel24kishan/Crate-Ninja",
       action: "",
       actionBtn:"Play",
     },
@@ -295,7 +293,7 @@ export const Bio = {
       title: "Ship Simulator",
       date: "Dec 2023 - Jan 2024",
       description:
-        "Enhanced existing mobile project with upgrades and additional levels, collaborated on asset redesign to reduce loading time by 13% and optimize app size by 20%, designed startup animation and level transitions with animator, and optimized in-game sorting logic utilizing Quicksort algorithm.",
+        "Enhanced existing 3D mobile project with upgrades and optimized game performance with in-game sorting logic utilizing Quicksort algorithm.",
       image:
         "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
       tags: [
@@ -307,8 +305,153 @@ export const Bio = {
         "Unity Input System"
       ],
       category: "unitygames",
-      github: "https://github.com/patel24kishan/MyKitchen-SinglePlayer",
+      github: "",
       action: "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
+      actionBtn:"Play Store",
+    },
+  
+    {
+      id: 4,
+      title: "Color it All",
+      date: "Sept 2019 - Dec 2019",
+      description:
+        "3D mobile game where players collect stars and paint a blank canvas with precision within various shapes for an enjoyable experience.",
+      image:
+        "https://gameforge.com/de-DE/littlegames/includes/images/games/3566_5eb3e34d61d21.jpg",
+      tags: [
+        "Unity", 
+        "C#", 
+         "Blender", 
+         "UI Builder",
+         "Photoshop",
+      ],
+      category: "unitygames",
+      github: "",
+      action: "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
+      actionBtn:"App link with similar mechanics",
+    },
+
+    {
+      id: 5,
+      title: "Unity Tools",
+      date: "Dec 2023 - Jan 2024",
+      description:
+        "Acquiring Unity tool proficiency :- Unity cloud save and Addressable.",
+      image:
+        "https://img.itch.zone/aW1nLzYwNjU4MDUuanBn/original/%2BMEce%2B.jpg",
+      tags: [
+        "Unity", 
+        "C#", 
+        "Unity Cloud", 
+        "Addressables", 
+        "Telemetry", 
+        "Git"
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/Unity-Tool-Demo",
+      action: "",
+      actionBtn:"",
+    },
+
+    {
+      id: 6,
+      title: "My Runner",
+      date: "July 2023 - July 2023",
+      description:
+        "Created horizontal endless runner Game for PC, similar to Chrome's Dino jumping game but in 3D.",
+      image:
+        "https://img.itch.zone/aW1nLzEzNDM3Njc4LnBuZw==/347x500/T9M7B%2B.png",
+      tags: [
+        "Unity", 
+        "C#", 
+        "Unity Cloud", 
+        "Addressables", 
+        "Telemetry", 
+        "Git"
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/My-Runner",
+      action: "",
+      actionBtn:"Play",
+    },
+
+    {
+      id: 7,
+      title: "Tic Tac Toe",
+      date: "July 2019",
+      description:
+        "Simple TicTacToe for mobile 2D game, with single and vs. Computer mode.",
+      image:
+        "https://hd.wallpaperswide.com/thumbs/tic_tac_toe_game-t2.jpg",
+      tags: [
+        "Unity", 
+        "C#", 
+        "UI Builder", 
+        "Photoshop",
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/tictactoe",
+      action: "",
+      actionBtn:"",
+    },
+
+    {
+      id: 8,
+      title: "Galaxy Shooter",
+      date: "2018",
+      description:
+        "A classic 2D Unity PC game featuring enemy shooting mechanics and engaging power-ups for player enjoyment.",
+      image:
+        "https://img.itch.zone/aW1nLzIyNzEwMDIucG5n/347x500/JMUHKM.png",
+      tags: [
+        "Unity", 
+        "C#", 
+        "UI Builder", 
+        "Photoshop",
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/GALAXY-SHOOTER",
+      action: "https://ghosts24.itch.io/galaxyshooter",
+      actionBtn:"Play",
+    },
+
+    {
+      id: 9,
+      title: "Infinite Racing",
+      date: "2018",
+      description:
+        "Vertical mobile 2D Unity game reminiscent of classic endless traffic racers.",
+      image:
+        "https://img.itch.zone/aW1nLzk2NjA0NzYucG5n/347x500/eTpBn%2F.png",
+      tags: [
+        "Unity", 
+        "C#", 
+        "UI Builder", 
+        "Photoshop",
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/infiniteracing",
+      action: "https://ghosts24.itch.io/infinite-racing",
+      actionBtn:"Play",
+    },
+
+    {
+      id: 10,
+      title: "Tile Breaker",
+      date: "2018",
+      description:
+        "Built from scratch, Timeless 2D tile-breaking game for mobile with powerups",
+      image:
+        "https://img.itch.zone/aW1nLzk2NjA0MTUucG5n/347x500/Avrkam.png",
+      tags: [
+        "Unity", 
+        "C#", 
+        "UI Builder", 
+        "Photoshop",
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/tilebreaker",
+      action: "https://ghosts24.itch.io/tilebreaker",
       actionBtn:"Play",
     },
   
