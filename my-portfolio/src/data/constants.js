@@ -361,7 +361,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://yt3.googleusercontent.com/F63MI3dWeaDoUOBN548zGWLWO4ll6CeCDCxVPphn9wD1FR_jlWwZA1hcdVjGWo5h0ECMzIhZ3A=s900-c-k-c0x00ffffff-no-rj",
+      img: "https://static.vecteezy.com/system/resources/previews/002/920/996/non_2x/college-building-academic-building-university-in-traditional-english-style-with-trees-and-a-green-lawn-and-playground-illustration-on-white-background-free-vector.jpg",
       school: "Dalhousie University",
       date: "Jan 2021 - Aug 2022",
       grade: "8.41 CGPA",
