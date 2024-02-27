@@ -114,7 +114,7 @@ const InteractButton = styled.a`
 const ProjectCard = ({ project }) => {
   return (
     <Card >
-      <Image src={project.image} />
+      <Image src={project.image} alt={project.title}/>
       
       <Tags>
         {project.tags?.map((tag, index) => (
@@ -127,8 +127,15 @@ const ProjectCard = ({ project }) => {
         <Description>{project.description}</Description>
       </Details>     
       <CardActions>
-        <Button size="medium" variant="outlined">Github</Button>
-         <Button size="medium" variant="contained" >{project.action}</Button>
+        {project.github?
+            <Button size="medium" variant="outlined">
+              Github
+            </Button>:
+            <></>
+          }
+        {project.action?
+                <Button size="medium" variant="contained" >{project.action}</Button>:<></>
+                }         
       </CardActions>
     </Card>
   );

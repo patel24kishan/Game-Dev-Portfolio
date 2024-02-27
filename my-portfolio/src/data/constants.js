@@ -220,9 +220,53 @@ export const Bio = {
   ];
   //Project category: unitygames, webapp, softwareapp, all
   export const projects = [
-    {
+      {
+        id: 0,
+        title: "Oui-Chef Multiplayer",
+        date: "Jan 2024 - Present",
+        description:
+          "Under Developmnet",
+        image:
+          "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        tags: [
+          "Unity", 
+          "C#", 
+          "Cinemachine", 
+          "Photoshop", 
+          "Git",
+          "Unity Input System",
+          "Netcode",
+        ],
+        category: "unitygames",
+        github: "",
+        webapp: "",
+        action:"Play",
+      },
+      {
       id: 0,
       title: "OuiChef- Single Player",
+      date: "Dec 2023 - Jan 2024",
+      description:
+        "Simple recipe-based cooking game with time-based challenges which supports PC and Gamepad.",
+      image:
+        "https://drive.google.com/file/d/1AiIYufA3cWJR_cZQZ-zl6sKUmEx2iCql/view?usp=sharing",
+      tags: [
+        "Unity", 
+        "C#", 
+        "Cinemachine", 
+        "Photoshop", 
+        "Git",
+        "Unity Input System"
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/MyKitchen-SinglePlayer",
+      webapp: "",
+      action:"Play",
+    },
+
+    {
+      id: 1,
+      title: "Crate-Ninja",
       date: "Jun 2023 - Jul 2023",
       description:
         "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
@@ -244,6 +288,28 @@ export const Bio = {
       category: "unitygames",
       github: "https://github.com/rishavchanda/Trackify",
       webapp: "https://trackify.duckdns.org",
+      action:"Play",
+    },
+
+    {
+      id: 3,
+      title: "Ship Simulator",
+      date: "Dec 2023 - Jan 2024",
+      description:
+        "Simple recipe-based cooking game with time-based challenges which supports PC and Gamepad.",
+      image:
+        "https://drive.google.com/file/d/1AiIYufA3cWJR_cZQZ-zl6sKUmEx2iCql/view?usp=sharing",
+      tags: [
+        "Unity", 
+        "C#", 
+        "Cinemachine", 
+        "Photoshop", 
+        "Git",
+        "Unity Input System"
+      ],
+      category: "unitygames",
+      github: "https://github.com/patel24kishan/MyKitchen-SinglePlayer",
+      webapp: "",
       action:"Play",
     },
   
@@ -283,58 +349,6 @@ export const Bio = {
       action:"More",
     },
     
-    {
-      id: 4,
-      title: "Crate-Ninja",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-      image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-      ],
-      category: "unitygames",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
-      action:"Play",
-    },
-    {
-      id: 5,
-      title: "Oui-Chef Multiplayer",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "Under Developmnet",
-      image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-      ],
-      category: "unitygames",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "",
-      action:"Play",
-    },
     {
       id: 6,
       title: "Digital Locker",
