@@ -222,12 +222,12 @@ export const Bio = {
   export const projects = [
       {
         id: 0,
-        title: "Oui-Chef Multiplayer",
+        title: "OuiChef - Multiplayer",
         date: "Jan 2024 - Present",
         description:
-          "Under Developmnet",
+          "In development, collaborating with Unity Netcode, with plan to host on AWS as high-scalable game.",
         image:
-          "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+          "https://files.ably.io/ghost/prod/2022/06/multiplayer-unity-game-with-ably.png",
         tags: [
           "Unity", 
           "C#", 
@@ -236,59 +236,58 @@ export const Bio = {
           "Git",
           "Unity Input System",
           "Netcode",
+          "AWS",
         ],
         category: "unitygames",
         github: "",
         webapp: "",
-        action:"Play",
+        action:"",
       },
+
       {
-      id: 0,
+      id: 1,
       title: "OuiChef- Single Player",
       date: "Dec 2023 - Jan 2024",
       description:
-        "Simple recipe-based cooking game with time-based challenges which supports PC and Gamepad.",
+        "Simple recipe-based cooking 3D game with time-based challenges which supports PC and Gamepad.",
       image:
-        "https://drive.google.com/file/d/1AiIYufA3cWJR_cZQZ-zl6sKUmEx2iCql/view?usp=sharing",
+      "https://wallpapercave.com/wp/wp12540570.png",
       tags: [
+        "PC / Gamepad",
         "Unity", 
         "C#", 
         "Cinemachine", 
         "Photoshop", 
         "Git",
+        "Shaders",
         "Unity Input System"
       ],
       category: "unitygames",
-      github: "https://github.com/patel24kishan/MyKitchen-SinglePlayer",
-      webapp: "",
-      action:"Play",
+      github: "",
+      action: "",
+      actionBtn:"Play",
     },
 
     {
-      id: 1,
+      id: 2,
       title: "Crate-Ninja",
-      date: "Jun 2023 - Jul 2023",
+      date: "Sept 2023 - Nov 2023",
       description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+        "3D endless game similar to Fruit Ninja's gameplay mechanics with crate replacing fruits.",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://wallpapercave.com/wp/wp12540569.png",
       tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
+         "Unity", 
+        "C#", 
+        "Cinemachine", 
+        "Photoshop", 
+        "Git",
+        "Unity Input System",
       ],
       category: "unitygames",
       github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
-      action:"Play",
+      action: "",
+      actionBtn:"Play",
     },
 
     {
@@ -296,9 +295,9 @@ export const Bio = {
       title: "Ship Simulator",
       date: "Dec 2023 - Jan 2024",
       description:
-        "Simple recipe-based cooking game with time-based challenges which supports PC and Gamepad.",
+        "Enhanced existing mobile project with upgrades and additional levels, collaborated on asset redesign to reduce loading time by 13% and optimize app size by 20%, designed startup animation and level transitions with animator, and optimized in-game sorting logic utilizing Quicksort algorithm.",
       image:
-        "https://drive.google.com/file/d/1AiIYufA3cWJR_cZQZ-zl6sKUmEx2iCql/view?usp=sharing",
+        "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
       tags: [
         "Unity", 
         "C#", 
@@ -309,8 +308,8 @@ export const Bio = {
       ],
       category: "unitygames",
       github: "https://github.com/patel24kishan/MyKitchen-SinglePlayer",
-      webapp: "",
-      action:"Play",
+      action: "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
+      actionBtn:"Play",
     },
   
     {
@@ -324,8 +323,8 @@ export const Bio = {
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
       category: "webapp",
       github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-      action:"More",
+      action: "",
+      actionBtn:"More",
     },
     {
       id: 1,
@@ -345,8 +344,8 @@ export const Bio = {
       ],
       category: "softwareapp",
       github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
-      action:"More",
+      action: "",
+      actionBtn:"More",
     },
     
     {
@@ -367,8 +366,8 @@ export const Bio = {
       ],
       category: "softwareapp",
       github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
-      action:"More",
+      action: "",
+      actionBtn:"More",
     },
   ];
   

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import { projects } from '../../data/constants';
+import Link from '@mui/material/Link';
 
 const Card = styled.div`
   width: 330px;
@@ -129,12 +130,14 @@ const ProjectCard = ({ project }) => {
       <CardActions>
         {project.github?
             <Button size="medium" variant="outlined">
-              Github
+              <Link href={project.github} underline="none">View Code</Link>
             </Button>:
             <></>
           }
         {project.action?
-                <Button size="medium" variant="contained" >{project.action}</Button>:<></>
+                <Button size="medium" variant="contained" >
+                  <Link color="white" href={project.action} underline="none">{project.actionBtn}</Link>
+                </Button>:<></>
                 }         
       </CardActions>
     </Card>
