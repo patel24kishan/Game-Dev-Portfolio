@@ -482,10 +482,32 @@ export const Bio = {
       action: "",
       actionBtn:"More",
     },
+
+    {
+      id: 12,
+      title: "Kishan Portfolio",
+      date: "Present",
+      description:
+        " This Website represent my work history along with the projects that I have collaborated to as well as personal porjects. ",
+      image:
+        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      tags: [
+        "ReactJs", 
+        "HTML", 
+        "CSS",  
+        "GitHub", 
+        "Material UI",
+        "Netlify",        
+      ],
+      category: "webapp",
+      github: "",
+      action: "<Link>",
+      actionBtn:"View Site",
+    },
   
     //Soft Apps
     {
-      id: 12,
+      id: 13,
       title: "My Digital Locker",
       date: "Sept 2021 - Dec 2021",
       description:
@@ -510,7 +532,7 @@ export const Bio = {
     },
 
     {
-      id: 13,
+      id: 14,
       title: "Hospital Management System",
       date: "May 2021 - Aug 2021",
       description:
@@ -518,15 +540,15 @@ export const Bio = {
       image:
         "https://i.pinimg.com/originals/6e/12/6a/6e126a9ace040280e45f8144cf0cb2c8.jpg",
       tags: [
-        "JavaScript", 
-        "ReactJs", 
-        "CSS", 
-        "Python", 
+        "Java", 
+        "JUnit", 
+        "Jira", 
         "Git", 
         "GitLab", 
-        "Heroku", 
-        "AWS", 
-        "Google Cloud"
+        "Mockito", 
+        "MySQL",
+        "CI / CD", 
+        "Heroku"
       ],
       category: "softwareapp",
       github: "https://github.com/patel24kishan/Hospital-Management-System",
