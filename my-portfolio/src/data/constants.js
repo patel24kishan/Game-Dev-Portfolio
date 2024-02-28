@@ -271,12 +271,12 @@ export const Bio = {
 
     {
       id: 2,
-      title: "Crate-Ninja",
+      title: "Fruit-Punch",
       date: "Sept 2023 - Nov 2023",
       description:
         "3D endless game similar to Fruit Ninja's gameplay mechanics with crate replacing fruits.",
       image:
-        "https://wallpapercave.com/wp/wp12540569.png",
+        "https://www.freevector.com/uploads/vector/preview/30763/SummerFoods_10.jpg",
       tags: [
          "Unity", 
         "C#", 
@@ -287,7 +287,7 @@ export const Bio = {
       ],
       category: "unitygames",
       github: "https://github.com/patel24kishan/Crate-Ninja",
-      action: "",
+      action: "https://ghosts24.itch.io/fruit-punch",
       actionBtn:"Play",
     },
 
@@ -394,8 +394,8 @@ export const Bio = {
       ],
       category: "unitygames",
       github: "https://github.com/patel24kishan/tictactoe",
-      action: "",
-      actionBtn:"",
+      action: "https://ghosts24.itch.io/tictactoe",
+      actionBtn:"Play",
     },
 
     {
@@ -516,8 +516,7 @@ export const Bio = {
         "https://img.freepik.com/free-vector/cloud-network-system-background-vector-social-media-banner_53876-111850.jpg",
       tags: [
         "JavaScript", 
-        "ReactJs", 
-        "CSS", 
+        "ReactJs",
         "Python", 
         "Git", 
         "GitLab", 
