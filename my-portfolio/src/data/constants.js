@@ -491,7 +491,7 @@ export const Bio = {
       description:
         "Developed multi-cloud digital locker application that supports MFA for users login, to access funds and highlight its transaction with dashboard.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+        "https://img.freepik.com/free-vector/cloud-network-system-background-vector-social-media-banner_53876-111850.jpg",
       tags: [
         "JavaScript", 
         "ReactJs", 
@@ -516,7 +516,7 @@ export const Bio = {
       description:
         "Created a Java-based application, adhering to High Cohesion-Low Coupling approach, SOLID principles, and Agile framework.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+        "https://i.pinimg.com/originals/6e/12/6a/6e126a9ace040280e45f8144cf0cb2c8.jpg",
       tags: [
         "JavaScript", 
         "ReactJs", 
@@ -529,7 +529,7 @@ export const Bio = {
         "Google Cloud"
       ],
       category: "softwareapp",
-      github: "https://github.com/patel24kishan/Digital-Locker",
+      github: "https://github.com/patel24kishan/Hospital-Management-System",
       action: "",
       actionBtn:"More",
     },
