@@ -218,6 +218,9 @@ export const Bio = {
   ];
   //Project category: unitygames, webapp, softwareapp, all
   export const projects = [
+    
+  
+    //Unity Games
       {
         id: 0,
         title: "OuiChef - Multiplayer",
@@ -328,7 +331,7 @@ export const Bio = {
       category: "unitygames",
       github: "",
       action: "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
-      actionBtn:"App link with similar mechanics",
+      actionBtn:"App with similar mechanics",
     },
 
     {
@@ -455,60 +458,78 @@ export const Bio = {
       actionBtn:"Play",
     },
   
+    //Web Apps
     {
-      id: 0,
+      id: 11,
       title: "Staycation",
       date: "Apr 2023 - May 2023",
       description:
-        "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+        " Interactive full-stack web application which helps user to booking their desired house rentals from list of alternatives at affordable prices",
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      tags: [
+        "ReactJs", 
+        "HTML", 
+        "CSS", 
+        "NodeJs", 
+        "MongoDB", 
+        "REST API", 
+        "Git", 
+        "Heroku",        
+      ],
       category: "webapp",
-      github: "https://github.com/rishavchanda/Podstream",
+      github: "https://github.com/patel24kishan/kishan-web-backend",
       action: "",
       actionBtn:"More",
     },
+  
+    //Soft Apps
     {
-      id: 1,
-      title: "Vexa",
-      date: "Oct 2022 - Present",
+      id: 12,
+      title: "My Digital Locker",
+      date: "Sept 2021 - Dec 2021",
       description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+        "Developed multi-cloud digital locker application that supports MFA for users login, to access funds and highlight its transaction with dashboard.",
       image:
         "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
       tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-        "NodeMailer",
+        "JavaScript", 
+        "ReactJs", 
+        "CSS", 
+        "Python", 
+        "Git", 
+        "GitLab", 
+        "Heroku", 
+        "AWS", 
+        "Google Cloud"
       ],
       category: "softwareapp",
-      github: "https://github.com/rishavchanda/Project-Management-App",
+      github: "https://github.com/patel24kishan/Digital-Locker",
       action: "",
       actionBtn:"More",
     },
-    
+
     {
-      id: 6,
-      title: "Digital Locker",
-      date: "Oct 2022 - Present",
+      id: 13,
+      title: "Hospital Management System",
+      date: "May 2021 - Aug 2021",
       description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+        "Created a Java-based application, adhering to High Cohesion-Low Coupling approach, SOLID principles, and Agile framework.",
       image:
         "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
       tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-        "NodeMailer",
+        "JavaScript", 
+        "ReactJs", 
+        "CSS", 
+        "Python", 
+        "Git", 
+        "GitLab", 
+        "Heroku", 
+        "AWS", 
+        "Google Cloud"
       ],
       category: "softwareapp",
-      github: "https://github.com/rishavchanda/Project-Management-App",
+      github: "https://github.com/patel24kishan/Digital-Locker",
       action: "",
       actionBtn:"More",
     },
