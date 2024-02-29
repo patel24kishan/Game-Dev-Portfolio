@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, NavLink, NavContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileMenuLinks, MobileNavLogo, MobileLink } from './NavBarStyledComponents';
 import {DiCssdeck} from 'react-icons/di';
 import {FaBars} from 'react-icons/fa';
-import Logo from '../../images/Logo.png';
+import Logo from '../../images/Logo-cloud.png';
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants'; 
 import { Button } from '@mui/material';
