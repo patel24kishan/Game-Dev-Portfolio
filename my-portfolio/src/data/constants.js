@@ -264,8 +264,8 @@ export const Bio = {
         "Unity Input System"
       ],
       category: "unitygames",
-      github: "",
-      action: "",
+      github: "https://github.com/patel24kishan/OuiChef-SinglePlayer",
+      action: "https://ghosts24.itch.io/oui-chef",
       actionBtn:"Play",
     },
 
