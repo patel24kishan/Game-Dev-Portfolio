@@ -226,7 +226,7 @@ export const Bio = {
         title: "OuiChef - Multiplayer",
         date: "Jan 2024 - Present",
         description:
-          "In development, collaborating with Unity Netcode, with plan to host on AWS as high-scalable game.",
+          "Under development, collaborating with Netcode, with plan to host on AWS as high-scalable game.",
         image:
           "https://files.ably.io/ghost/prod/2022/06/multiplayer-unity-game-with-ably.png",
         tags: [
@@ -252,7 +252,7 @@ export const Bio = {
       description:
         "Simple recipe-based cooking 3D game with time-based challenges which supports PC and Gamepad.",
       image:
-      "https://wallpapercave.com/wp/wp12540570.png",
+      "https://img.itch.zone/aW1nLzE1MjEwMTEyLnBuZw==/315x250%23c/kYBt9U.png",
       tags: [
         "PC / Gamepad",
         "Unity", 
@@ -298,7 +298,7 @@ export const Bio = {
       description:
         "Enhanced existing 3D mobile project with upgrades and optimized game performance with in-game sorting logic utilizing Quicksort algorithm.",
       image:
-        "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
+        "https://static.vecteezy.com/system/resources/previews/000/451/918/non_2x/vector-isometric-models-of-ships.jpg",
       tags: [
         "Unity", 
         "C#", 
@@ -568,7 +568,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://www.gcet.ac.in/uploads/news/gcet-2018-01-04-gcet-logo.png",
+      img: "https://static.vecteezy.com/system/resources/previews/033/088/620/non_2x/house-building-illustration-building-and-landmark-object-icon-concept-beautiful-minimalist-home-front-view-with-roof-design-modern-white-flat-commercial-home-design-vector.jpg",
       school: "G H Patel College of Tech & Engg.",
       date: "June 2015 - May 2019",
       grade: "8.6 CGPA",
