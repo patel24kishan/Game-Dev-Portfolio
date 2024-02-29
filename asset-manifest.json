@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Kishan-Work-Portfolio/static/css/main.c55bdca2.css",
-    "main.js": "/Kishan-Work-Portfolio/static/js/main.1d2db501.js",
+    "main.js": "/Kishan-Work-Portfolio/static/js/main.5d776964.js",
     "static/media/ProfileImage.jpg": "/Kishan-Work-Portfolio/static/media/ProfileImage.370fb29aefc217c98bc9.jpg",
-    "static/media/Logo.png": "/Kishan-Work-Portfolio/static/media/Logo.906aa60631b220e9dae4.png",
+    "static/media/Logo-cloud.png": "/Kishan-Work-Portfolio/static/media/Logo-cloud.5341daff01e1526674e8.png",
     "index.html": "/Kishan-Work-Portfolio/index.html",
     "main.c55bdca2.css.map": "/Kishan-Work-Portfolio/static/css/main.c55bdca2.css.map",
-    "main.1d2db501.js.map": "/Kishan-Work-Portfolio/static/js/main.1d2db501.js.map"
+    "main.5d776964.js.map": "/Kishan-Work-Portfolio/static/js/main.5d776964.js.map"
   },
   "entrypoints": [
     "static/css/main.c55bdca2.css",
-    "static/js/main.1d2db501.js"
+    "static/js/main.5d776964.js"
   ]
 }
