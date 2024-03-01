@@ -10,8 +10,8 @@ export const Bio = {
       "3x AWS certified software developer with solid game development experience as Unity Developer, seeking new opportunities in the gaming industry. Skilled in various programming languages and game engines, with a proven track record of creating engaging and immersive gaming experiences. Eager to contribute expertise and creativity to a dynamic game development team.",
     github: "https://github.com/patel24kishan",
     resume_gamedeveloper:
-      "https://drive.google.com/file/d/1sQ8-PMJgUo75I0OnfQl3eeLHfxSMAAof/view?usp=drivesdk",
-    resume_softwaredeveloper:"https://drive.google.com/file/d/1sKffcMKezBLFVSMQ7B3QSL2wM0a_vPml/view?usp=drivesdk" ,
+      "https://drive.google.com/file/d/1UQizy2ATWY0_dKjEPd-Z9UF-20A_AqaK/view?usp=drive_link",
+    resume_softwaredeveloper:"https://drive.google.com/file/d/1IDqMwEJxBzXq9XgQcefFmeDTMmLGUlZl/view?usp=drive_link" ,
     linkedin: "https://www.linkedin.com/in/kkishan2409/",
     twitter: "",
     itchio:"https://ghosts24.itch.io/",
