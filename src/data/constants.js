@@ -4,7 +4,7 @@ export const Bio = {
       "Game Developer",
       "Unity Developer",
       "Game Programmer",
-      "Backend Developer"
+      "Software Developer"
     ],
     description:
       "3x AWS certified software developer with solid game development experience as Unity Developer, seeking new opportunities in the gaming industry. Skilled in various programming languages and game engines, with a proven track record of creating engaging and immersive gaming experiences. Eager to contribute expertise and creativity to a dynamic game development team.",
