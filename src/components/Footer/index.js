@@ -132,7 +132,7 @@ const Footer = () => {
 
           
         </SocialMediaIcons>
-        <Copyright>&copy; Developed by Kishan Kahodariya.<br/>All rights reserved.</Copyright>
+        <Copyright> Developed by Kishan Kahodariya.<br/>&copy; All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
