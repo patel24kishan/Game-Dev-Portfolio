@@ -7,7 +7,7 @@ export const Bio = {
       "Software Developer"
     ],
     description:
-      "3x AWS certified software developer with solid game development experience as Unity Developer, seeking new opportunities in the gaming industry. Skilled in various programming languages and game engines, with a proven track record of creating engaging and immersive gaming experiences. Eager to contribute expertise and creativity to a dynamic game development team.",
+      "3x AWS certified proficient game developer with one year of experience at India’s leading gaming studio, along with over one year of backend development at IBM Canada's Hybrid Cloud Development team. Proficient in Java, Spring Boot, and Python, with hands-on experience in migrating applications to the cloud. Prior experience as a Game Developer, adept at Unity3D and C#, with published titles to showcase. Passionate about game mechanics and creative problem-solving.",
     github: "https://github.com/patel24kishan",
     resume_gamedeveloper:
       "https://drive.google.com/file/d/1UQizy2ATWY0_dKjEPd-Z9UF-20A_AqaK/view?usp=drive_link",
