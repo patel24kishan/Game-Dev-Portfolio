@@ -7,7 +7,7 @@ export const Bio = {
       "Software Developer"
     ],
     description:
-      "3x AWS certified proficient game developer with one year of experience at India’s leading gaming studio, along with over one year of backend development at IBM Canada's Hybrid Cloud Development team. Proficient in Java, Spring Boot, and Python, with hands-on experience in migrating applications to the cloud. Prior experience as a Game Developer, adept at Unity3D and C#, with published titles to showcase. Passionate about game mechanics and creative problem-solving.",
+      "Creative game developer with one year of experience at India’s leading gaming studio, with published titles to showcase. Experienced backend developer at IBM Canada's Hybrid Cloud Development team with migrating applications to the cloud and proficient in Java, Spring Boot, and Python. Passionate about game mechanics, cloud tech and creative problem-solving.",
     github: "https://github.com/patel24kishan",
     resume_gamedeveloper:
       "https://drive.google.com/file/d/1UQizy2ATWY0_dKjEPd-Z9UF-20A_AqaK/view?usp=drive_link",
