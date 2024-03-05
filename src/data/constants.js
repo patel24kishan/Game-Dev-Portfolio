@@ -254,14 +254,13 @@ export const Bio = {
       image:
       "https://img.itch.zone/aW1nLzE1MjEwMTEyLnBuZw==/315x250%23c/kYBt9U.png",
       tags: [
-        "PC / Gamepad",
         "Unity", 
         "C#", 
         "Cinemachine", 
         "Photoshop", 
         "Git",
         "Shaders",
-        "Unity Input System"
+        "Unity I/O System"
       ],
       category: "unitygames",
       github: "https://github.com/patel24kishan/OuiChef-SinglePlayer",
