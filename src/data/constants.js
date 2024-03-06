@@ -484,10 +484,10 @@ export const Bio = {
 
     {
       id: 12,
-      title: "Kishan Portfolio",
+      title: "My Portfolio",
       date: "Present",
       description:
-        " This Website represent my work history along with the projects that I have collaborated to as well as personal porjects. ",
+        " This Website was created from scratch using React, material-UI and deployed using GitHub Pages. ",
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
       tags: [
@@ -495,8 +495,8 @@ export const Bio = {
         "HTML", 
         "CSS",  
         "GitHub", 
-        "Material UI",
-        "Netlify",        
+        "GitHub Pages",
+        "Material-UI",    
       ],
       category: "webapp",
       github: "",
