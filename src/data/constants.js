@@ -487,7 +487,7 @@ export const Bio = {
       title: "My Portfolio",
       date: "Present",
       description:
-        " This Website was created from scratch using React, material-UI and deployed using GitHub Pages. ",
+        " Current Website was created from scratch using React, material-UI and deployed using GitHub Pages. ",
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
       tags: [
