@@ -329,7 +329,7 @@ export const Bio = {
       ],
       category: "unitygames",
       github: "",
-      action: "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
+      action: "https://apps.apple.com/us/app/kolor-it/id1477042251",
       actionBtn:"App with similar mechanics",
     },
 
