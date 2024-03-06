@@ -10,7 +10,7 @@ export const Bio = {
       "Creative game developer with one year of experience at India’s leading game studio, with published titles to showcase. Experienced backend developer at IBM Canada's Hybrid Cloud Development team with migrating applications to cloud and proficient in Java, Spring Boot, and Python. Passionate about game mechanics, cloud gaming and problem-solving.",
     github: "https://github.com/patel24kishan",
     resume_gamedeveloper:
-      "https://drive.google.com/file/d/1UQizy2ATWY0_dKjEPd-Z9UF-20A_AqaK/view?usp=drive_link",
+      "https://drive.google.com/file/d/190R5BzMQ2ceb2dC3YdFL7LEofNMpXC9Y/view?usp=drive_link",
     resume_softwaredeveloper:"https://drive.google.com/file/d/1IDqMwEJxBzXq9XgQcefFmeDTMmLGUlZl/view?usp=drive_link" ,
     linkedin: "https://www.linkedin.com/in/kkishan2409/",
     twitter: "",
