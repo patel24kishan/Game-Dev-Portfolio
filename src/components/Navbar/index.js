@@ -1,4 +1,4 @@
-import React from 'react';
+import {React,useState} from 'react';
 import { Nav, NavLink, NavContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileMenuLinks, MobileNavLogo, MobileLink } from './NavBarStyledComponents';
 import {DiCssdeck} from 'react-icons/di';
 import {FaBars} from 'react-icons/fa';
@@ -9,7 +9,7 @@ import { Button } from '@mui/material';
 
 const Navbar=()=>{
 
-    const [open,setOpen]= React.useState(false);
+    const [open,setOpen]= useState(false);
     const theme= useTheme();
     return (
     <Nav>
