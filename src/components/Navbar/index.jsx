@@ -1,5 +1,5 @@
-import {React,useState} from 'react';
-import { Nav, NavLink, NavContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileMenuLinks, MobileNavLogo, MobileLink } from './NavBarStyledComponents';
+import {React,useEffect,useState} from 'react';
+import { Nav, NavLink, NavContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavBarStyledComponents';
 import {DiCssdeck} from 'react-icons/di';
 import {FaBars} from 'react-icons/fa';
 import Logo from '../../images/Logo-cloud.png';
@@ -10,7 +10,24 @@ import { Button } from '@mui/material';
 const Navbar=()=>{
 
     const [open,setOpen]= useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const theme= useTheme();
+
+    useEffect(() => {
+        const handleResize = () => {
+          setWindowWidth(window.innerWidth);
+          if (window.innerWidth > 768) {
+            setOpen(false);
+          }
+        };
+    
+        window.addEventListener("resize", handleResize);
+    
+        return () => {
+          window.removeEventListener("resize", handleResize);
+        };
+      }, []);
+
     return (
     <Nav>
         <NavContainer>
@@ -22,6 +39,7 @@ const Navbar=()=>{
             <MobileIcon>
                <FaBars
                onClick={()=>{
+                console.log(open);
                 setOpen(!open);
                }}/>
             </MobileIcon>

@@ -11,13 +11,15 @@ import Projects from './components/Projects';
 import Certificate from './components/Certificate';
 import Footer from './components/Footer';
 import Combined from './components/Combined';
+import NavigationBar from './components/navbarNEw/NavbarNew';
 
 const Body=styled.div`
 background-color:${({theme})=>theme.bg};
 width:100%;
 height:100%;
 overflow-x: hidden;
-`
+`;
+
 const Wrapper=styled.div`
 background: linear-gradient(
   38.73deg,
@@ -31,14 +33,14 @@ linear-gradient(
 );
 width: 100%;
 clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
-)
-`
+`;
 
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
-        <Navbar/>
+       <Navbar/> 
+        {/* <NavigationBar/> */}
           <Body>
                 <Profile/>
                   <Wrapper>

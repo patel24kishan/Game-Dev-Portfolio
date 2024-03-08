@@ -1,0 +1,6 @@
+{
+    "eslint.run":"OnSave",
+    "files.autoSaveDelay": 250,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}

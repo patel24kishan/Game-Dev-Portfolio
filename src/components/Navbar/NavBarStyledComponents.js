@@ -37,6 +37,7 @@ export const NavLogo = styled(LinkR)`
       padding: 0 0px;
   }
 `;
+
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
@@ -115,8 +116,9 @@ export const MobileIcon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.5rem;
+    transform: translate(-100%, 50%);
+    font-size: 1.8rem;
+    z-index: 999;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
@@ -124,70 +126,23 @@ export const MobileIcon = styled.div`
 
 export const MobileMenu = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 16px;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 100%;
-    padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
-    transition: all 0.6s ease-in-out;
-    transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
-
-`
-
-export const MobileMenuItems = styled.ul`
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 16px;
   justify-content: center;
-  gap: 32px;
-  list-style: none;
+  position: absolute;
+  top: 80px;
+  right: 0;
   width: 100%;
-  height: 100%;
+  padding: 42px 40px 24px 40px;
+  background-color: ${({ theme }) => theme.card_light};
+  transition: all 0.3s ease-in-out;
+  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  opacity: ${({ open }) => (open ? "1" : "0")};
+  z-index: ${({ open }) => (open ? "1" : "-1")};
 `
 
-export const MobileMenuLinks = styled(LinkR)`
-  color: ${({ theme }) => theme.text_primary};
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-  :hover {
-    color: ${({ theme }) => theme.primary};
-  }
-
-  &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
-  }
-`;
-
-export const MobileMenuButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  height: 70%;
-  border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
-  cursor: pointer;
-  padding: 0 20px;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 16px;
-  transition: all 0.6s ease-in-out;
-
-  :hover {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.white};
-  }
-`;
 
 export  const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
@@ -195,23 +150,7 @@ export  const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
-  }
-
-  &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
-  }
-`;
-
-export const MobileNavLogo = styled(LinkR)`
-  width: 80%;
-  padding: 0 6px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  text-decoration: none;
-  @media (max-width: 640px) {
-    padding: 0 0px;
   }
 `;
