@@ -151,7 +151,7 @@ export const Span = styled.span`
   cursor: pointer;
 `;
 
-export const SubTitle = styled.div`
+export const Description = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;

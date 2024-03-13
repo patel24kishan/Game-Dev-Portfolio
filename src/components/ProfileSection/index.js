@@ -1,7 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import ProfileBgAnimation from '../ProfileBgAnimation';
-import { ProfileContainer, ProfileBg, ProfileLeftContainer, ProfileImg, ProfileRightContainer, ProfileInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './ProfileStyle';
+import { ProfileContainer, ProfileBg, ProfileLeftContainer, ProfileImg, ProfileRightContainer, ProfileInnerContainer, TextLoop, Title, Span, Description,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './ProfileStyle';
 import ProfileImage from '../../images/ProfileImage.jpg';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -29,7 +29,7 @@ const Profile=()=>{
                                 }}/>
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
+                        <Description>{Bio.description}</Description>
                         <ResumeButton href={Bio.resume_gamedeveloper} target="_blank">Review CV</ResumeButton>
                     </ProfileLeftContainer>
                     <ProfileRightContainer>
