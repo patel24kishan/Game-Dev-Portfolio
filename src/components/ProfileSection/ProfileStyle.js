@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "../../utils/Theme";
+import { theme } from "../../utils/Theme";
 
 export const ProfileContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -57,6 +57,7 @@ export const ProfileInnerContainer = styled.div`
 export const ProfileLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  text-align: justify;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
