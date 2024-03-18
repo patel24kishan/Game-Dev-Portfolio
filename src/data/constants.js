@@ -1,3 +1,5 @@
+
+
 export const Bio = {
   name: "Kishan",
   roles: [
@@ -435,7 +437,7 @@ export const projects = [
     description:
       " Current Website was created from scratch using React, material-UI and deployed using GitHub Pages. ",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://cdni.iconscout.com/illustration/premium/thumb/man-working-on-responsive-web-development-5691624-4759506.png?f=webp",
     tags: ["ReactJs", "HTML", "CSS", "GitHub", "GitHub Pages", "Material-UI"],
     category: "webapp",
     github: "",
