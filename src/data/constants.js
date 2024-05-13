@@ -214,9 +214,9 @@ export const projects = [
   {
     id: 0,
     title: "OuiChef - Multiplayer",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Apr 2024",
     description:
-      "Under development, collaborating with Netcode, with plan to host on AWS as high-scalable game.",
+      "Developed the multiplayer mode on the Unity Netcode framework with Unity Cloud and Leveraged Unity Cloud's Lobby and Relay services to connect players worldwide ",
     image:
       "https://files.ably.io/ghost/prod/2022/06/multiplayer-unity-game-with-ably.png",
     tags: [
