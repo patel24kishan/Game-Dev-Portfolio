@@ -166,7 +166,7 @@ export const experiences = [
     img: "https://www.svgrepo.com/show/349407/ibm.svg",
     role: "Application Developer",
     company: "IBM Canada",
-    date: "June 2023 - Present",
+    date: "June 2023 - February 2024",
     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
     skills: [
       "ReactJS",
@@ -194,8 +194,8 @@ export const experiences = [
     img: "https://media.glassdoor.com/sql/1759068/escrow-infotech-squarelogo-1559125938891.png",
     role: "Game Developer",
     company: "Escrow Infotech",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    date: "June 2019 - September 2020",
+    desc: "Worked as game developer to developDeveloped Unity projects in a collaborative team environment of five including developers, designer, tester, and release team utilizing agile methodology.",
     skills: [
       "Unity",
       "C#",
