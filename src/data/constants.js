@@ -166,7 +166,7 @@ export const experiences = [
     img: "https://www.svgrepo.com/show/349407/ibm.svg",
     role: "Application Developer",
     company: "IBM Canada",
-    date: "June 2023 - February 2024",
+    date: "December 2023 - February 2024",
     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
     skills: [
       "ReactJS",
