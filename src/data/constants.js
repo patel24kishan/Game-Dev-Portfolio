@@ -203,7 +203,7 @@ export const experiences = [
     doc: "",
   },
 ];
-//Project category: unitygames, webapp, softwareapp, all
+//Project category: Games, webapp, softwareapp, all
 export const projects = [
   //Unity Games
   {
@@ -224,7 +224,7 @@ export const projects = [
       "Netcode",
       "AWS",
     ],
-    category: "unitygames",
+    category: "Games",
     github: "",
     webapp: "",
     action: "",
@@ -247,7 +247,7 @@ export const projects = [
       "Shaders",
       "Unity I/O System",
     ],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/OuiChef-SinglePlayer",
     action: "https://ghosts24.itch.io/oui-chef",
     actionBtn: "Play",
@@ -269,7 +269,7 @@ export const projects = [
       "Git",
       "Unity Input System",
     ],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/Crate-Ninja",
     action: "https://ghosts24.itch.io/fruit-punch",
     actionBtn: "Play",
@@ -291,7 +291,7 @@ export const projects = [
       "Git",
       "Unity Input System",
     ],
-    category: "unitygames",
+    category: "Games",
     github: "",
     action:
       "https://play.google.com/store/apps/details?id=com.gcg.bigCruiseShip_GCG",
@@ -307,7 +307,7 @@ export const projects = [
     image:
       "https://gameforge.com/de-DE/littlegames/includes/images/games/3566_5eb3e34d61d21.jpg",
     tags: ["Unity", "C#", "Blender", "UI Builder", "Photoshop"],
-    category: "unitygames",
+    category: "Games",
     github: "",
     action: "https://apps.apple.com/us/app/kolor-it/id1477042251",
     actionBtn: "App with similar mechanics",
@@ -321,7 +321,7 @@ export const projects = [
       "Acquiring Unity tool proficiency :- Unity cloud save and Addressable.",
     image: "https://img.itch.zone/aW1nLzYwNjU4MDUuanBn/original/%2BMEce%2B.jpg",
     tags: ["Unity", "C#", "Unity Cloud", "Addressables", "Telemetry", "Git"],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/Unity-Tool-Demo",
     action: "",
     actionBtn: "",
@@ -336,7 +336,7 @@ export const projects = [
     image:
       "https://img.itch.zone/aW1nLzEzNDM3Njc4LnBuZw==/347x500/T9M7B%2B.png",
     tags: ["Unity", "C#", "Unity Cloud", "Addressables", "Telemetry", "Git"],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/My-Runner",
     action: "",
     actionBtn: "Play",
@@ -350,7 +350,7 @@ export const projects = [
       "Simple TicTacToe for mobile 2D game, with single and vs. Computer mode.",
     image: "https://hd.wallpaperswide.com/thumbs/tic_tac_toe_game-t2.jpg",
     tags: ["Unity", "C#", "UI Builder", "Photoshop"],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/tictactoe",
     action: "https://ghosts24.itch.io/tictactoe",
     actionBtn: "Play",
@@ -364,7 +364,7 @@ export const projects = [
       "A classic 2D Unity PC game featuring enemy shooting mechanics and engaging power-ups for player enjoyment.",
     image: "https://img.itch.zone/aW1nLzIyNzEwMDIucG5n/347x500/JMUHKM.png",
     tags: ["Unity", "C#", "UI Builder", "Photoshop"],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/GALAXY-SHOOTER",
     action: "https://ghosts24.itch.io/galaxyshooter",
     actionBtn: "Play",
@@ -378,7 +378,7 @@ export const projects = [
       "Vertical mobile 2D Unity game reminiscent of classic endless traffic racers.",
     image: "https://img.itch.zone/aW1nLzk2NjA0NzYucG5n/347x500/eTpBn%2F.png",
     tags: ["Unity", "C#", "UI Builder", "Photoshop"],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/infiniteracing",
     action: "https://ghosts24.itch.io/infinite-racing",
     actionBtn: "Play",
@@ -392,7 +392,7 @@ export const projects = [
       "Built from scratch, Timeless 2D tile-breaking game for mobile with powerups",
     image: "https://img.itch.zone/aW1nLzk2NjA0MTUucG5n/347x500/Avrkam.png",
     tags: ["Unity", "C#", "UI Builder", "Photoshop"],
-    category: "unitygames",
+    category: "Games",
     github: "https://github.com/patel24kishan/tilebreaker",
     action: "https://ghosts24.itch.io/tilebreaker",
     actionBtn: "Play",
