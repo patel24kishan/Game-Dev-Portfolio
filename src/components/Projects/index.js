@@ -25,14 +25,14 @@ const Projects = () => {
               value="Games"
               onClick={() => setProjectToggle("Games")}
             >
-              Unity Games
+              Games
             </ProjectToggleButton>
           ) : (
             <ProjectToggleButton
               value="Games"
               onClick={() => setProjectToggle("Games")}
             >
-              Unity Games
+              Games
             </ProjectToggleButton>
           )}
 
