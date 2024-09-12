@@ -43,11 +43,11 @@ const Projects = () => {
               active
               onClick={() => setProjectToggle("webapp")}
             >
-              Web App's
+              Web App
             </ProjectToggleButton>
           ) : (
             <ProjectToggleButton onClick={() => setProjectToggle("webapp")}>
-              Web App's
+              Web App
             </ProjectToggleButton>
           )}
           <ProjectDivider />
@@ -57,13 +57,13 @@ const Projects = () => {
               active
               onClick={() => setProjectToggle("softwareapp")}
             >
-              Software App's
+              Software App
             </ProjectToggleButton>
           ) : (
             <ProjectToggleButton
               onClick={() => setProjectToggle("softwareapp")}
             >
-              Software App's
+              Software App
             </ProjectToggleButton>
           )}
           <ProjectDivider />
