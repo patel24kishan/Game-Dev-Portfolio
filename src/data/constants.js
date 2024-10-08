@@ -164,13 +164,13 @@ export const experiences = [
     date: "June 2024 - Present",
     desc: "Developing Battleground themed AAA title for Astro Games using Unreal Engine, Blueprint, and C++.",
     skills: [
-      "Unreal Engine", 
-      "Blueprint", 
+      "Unreal Engine",
+      "Blueprint",
       "C++",
       "MongoDB",
       "Discord",
       "Next Cloud",
-      "Wiki.js"
+      "Wiki.js",
     ],
     doc: "",
   },
@@ -414,6 +414,20 @@ export const projects = [
     github: "https://github.com/patel24kishan/tilebreaker",
     action: "https://ghosts24.itch.io/tilebreaker",
     actionBtn: "Play",
+  },
+
+  {
+    id: 11,
+    title: "Target Shooter",
+    date: "2024",
+    description:
+      "Built First-Person Shooter using Unreal Engine and Blueprint, designing game mechanics utilized Chaos Physics to enhance user experience",
+    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    tags: ["Unreal Engine", "C++", "Blueprint", "Chaos Physics"],
+    category: "Games",
+    github: "https://github.com/patel24kishan/tilebreaker",
+    action: "https://www.youtube.com/watch?v=Lp46QFgKyKM",
+    actionBtn: "View",
   },
 
   //Web Apps
