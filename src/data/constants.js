@@ -224,6 +224,21 @@ export const experiences = [
 //Project category: Games, webapp, softwareapp, all
 export const projects = [
   //Unity Games
+
+  {
+    id: -1,
+    title: "Target Shooter",
+    date: "2024",
+    description:
+      "Built First-Person Shooter using Unreal Engine and Blueprint, designing game mechanics utilized Chaos Physics to enhance user experience",
+    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    tags: ["Unreal Engine", "C++", "Blueprint", "Chaos Physics"],
+    category: "Games",
+    github: "https://github.com/patel24kishan/tilebreaker",
+    action: "https://www.youtube.com/watch?v=Lp46QFgKyKM",
+    actionBtn: "View",
+  },
+
   {
     id: 0,
     title: "OuiChef - Multiplayer",
@@ -416,19 +431,7 @@ export const projects = [
     actionBtn: "Play",
   },
 
-  {
-    id: 11,
-    title: "Target Shooter",
-    date: "2024",
-    description:
-      "Built First-Person Shooter using Unreal Engine and Blueprint, designing game mechanics utilized Chaos Physics to enhance user experience",
-    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
-    tags: ["Unreal Engine", "C++", "Blueprint", "Chaos Physics"],
-    category: "Games",
-    github: "https://github.com/patel24kishan/tilebreaker",
-    action: "https://www.youtube.com/watch?v=Lp46QFgKyKM",
-    actionBtn: "View",
-  },
+ 
 
   //Web Apps
   {
