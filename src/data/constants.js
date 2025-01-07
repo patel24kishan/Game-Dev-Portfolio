@@ -234,7 +234,7 @@ export const projects = [
     image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
     tags: ["Unreal Engine", "C++", "Blueprint", "Chaos Physics"],
     category: "Games",
-    github: "https://github.com/patel24kishan/tilebreaker",
+    github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "https://www.youtube.com/watch?v=Lp46QFgKyKM",
     actionBtn: "View",
   },
